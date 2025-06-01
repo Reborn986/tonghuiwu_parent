@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bottom_sheet_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加评论"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#8D6E63"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="top"
+        android:hint="请输入您的评论..."
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:inputType="textMultiLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/button_cancel_background"
+            android:textColor="#8D6E63"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/button_submit_background"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

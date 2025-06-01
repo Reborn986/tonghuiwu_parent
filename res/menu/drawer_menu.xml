@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+  <group android:checkableBehavior="single">
+      <item android:id="@+id/nav_paper"
+          android:icon="@drawable/ic_paper"
+          android:title="原创作品"/>
+      <item android:id="@+id/nav_people"
+          android:icon="@drawable/ic_people"
+          android:title="孩子信息"/>
+      <item android:id="@+id/nav_color"
+          android:iconTint="@color/pink"
+          android:icon="@drawable/ic_color"
+          android:title="主题切换"/>
+      <item android:id="@+id/nav_set"
+          android:icon="@drawable/ic_set"
+          android:title="设置"/>
+  </group>
+</menu>

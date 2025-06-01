@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Blue Menu"
+        android:id="@+id/seka_return"
+        android:icon="@drawable/baseline_arrow_back_ios_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Blue Menu"
+        android:id="@+id/seka_menu"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="never" />
+</menu>

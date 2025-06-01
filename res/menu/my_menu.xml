@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:title="search"
+    android:id="@+id/search_icon"
+    android:icon="@drawable/ic_search"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:title="Main Menu"
+        android:id="@+id/menu_icon"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always">
+        <menu>
+           <item
+               android:title="Settings"
+               android:icon="@drawable/ic_set"
+               android:id="@+id/settings"
+               app:showAsAction="never"/>
+            <item
+                android:title="Bluetooth"
+                android:icon="@drawable/ic_blue"
+                android:id="@+id/bluetooth"
+                app:showAsAction="never"/>
+            <item
+                android:title="Refresh"
+                android:icon="@drawable/ic_refresh"
+                android:id="@+id/refresh"
+                app:showAsAction="never"/>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

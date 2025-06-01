@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 粉色背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFD6D6" />
+        </shape>
+    </item>
+    
+    <!-- 底部白色波浪 -->
+    <item android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <!-- 使用路径创建波浪效果 -->
+            <corners android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+            <!-- 使用顶部的波浪形状 -->
+            <padding android:top="200dp" />
+        </shape>
+    </item>
+</layer-list>
